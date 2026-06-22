@@ -1,22 +1,8 @@
 # Weather Data Analysis and Rainfall Prediction
 
-## Project Overview
+## Overview
 
-This project performs Exploratory Data Analysis (EDA) and Machine Learning on weather data to predict rainfall.
-
-## Features
-
-* Missing Value Analysis
-* Correlation Analysis
-* Rainfall Distribution Analysis
-* Rain Today / Rain Tomorrow Analysis
-* Outlier Detection
-* Humidity vs Rainfall Analysis
-* Linear Regression Model
-* Decision Tree Model
-* Random Forest Model
-* Feature Importance Analysis
-* Model Performance Comparison
+This project performs Exploratory Data Analysis (EDA) and Machine Learning on weather data to predict rainfall and identify important weather patterns.
 
 ## Technologies Used
 
@@ -27,30 +13,44 @@ This project performs Exploratory Data Analysis (EDA) and Machine Learning on we
 * Seaborn
 * Scikit-Learn
 
-## Dataset Features
+## Features
 
-* MinTemp
-* MaxTemp
-* Rainfall
-* Humidity
-* Pressure
-* Wind Speed
-* Temperature Measurements
-
-## Machine Learning Models
-
-1. Linear Regression
-2. Decision Tree Regressor
-3. Random Forest Regressor
-
-## Generated Outputs
-
-* Correlation Matrix
-* Pair Plot
+* Missing Value Analysis
+* Correlation Analysis
 * Rainfall Distribution
-* Feature Importance
-* Actual vs Predicted Graph
-* Model Performance Report
+* Outlier Detection
+* Rain Today / Rain Tomorrow Analysis
+* Humidity vs Rainfall Analysis
+* Machine Learning Models
+
+  * Linear Regression
+  * Decision Tree Regressor
+  * Random Forest Regressor
+
+## Model Evaluation Metrics
+
+* MAE
+* MSE
+* RMSE
+* R² Score
+
+## Project Outputs
+
+### Correlation Matrix
+
+![Correlation Matrix](images/correlation_matrix.png)
+
+### Actual vs Predicted Rainfall
+
+![Prediction](images/actual_vs_predicted.png)
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+### Humidity vs Rainfall
+
+![Humidity](images/humidity_vs_rainfall.png)
 
 ## How to Run
 
@@ -62,3 +62,4 @@ python weather_analysis.py
 ## Author
 
 Arshpreet Singh
+B.Tech Computer Science Engineering
