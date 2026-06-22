@@ -1,0 +1,20 @@
+WEATHER ANALYSIS REPORT
+==================================================
+
+Dataset Shape:
+(366, 22)
+
+Columns:
+['MinTemp', 'MaxTemp', 'Rainfall', 'Evaporation', 'Sunshine', 'WindGustDir', 'WindGustSpeed', 'WindDir9am', 'WindDir3pm', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud9am', 'Cloud3pm', 'Temp9am', 'Temp3pm', 'RainToday', 'RISK_MM', 'RainTomorrow']
+
+Model Performance:
+               Model       MAE        MSE      RMSE  R2 Score
+0  Linear Regression  2.683145  34.425263  5.867305  0.185692
+1      Decision Tree  3.040541  54.255676  7.365845 -0.283384
+2      Random Forest  2.607216  40.126722  6.334566  0.050827
+
+Best Model:
+LinearRegression
+
+Best R2 Score:
+0.1856919330860315

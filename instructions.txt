@@ -1,0 +1,139 @@
+WEATHER DATA ANALYSIS AND RAINFALL PREDICTION
+
+========================================
+PROJECT DESCRIPTION
+===================
+
+This project performs Exploratory Data Analysis (EDA) and Machine Learning on weather data to analyze weather patterns and predict rainfall.
+
+The project includes:
+
+1. Missing Value Analysis
+2. Correlation Analysis
+3. Rainfall Distribution Analysis
+4. Rain Today / Rain Tomorrow Analysis
+5. Humidity vs Rainfall Analysis
+6. Outlier Detection
+7. Linear Regression Model
+8. Decision Tree Regressor
+9. Random Forest Regressor
+10. Feature Importance Analysis
+11. Model Performance Comparison
+12. Actual vs Predicted Visualization
+
+========================================
+PROJECT REQUIREMENTS
+====================
+
+Python Version:
+Python 3.9 or above
+
+Required Libraries:
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+
+Install dependencies using:
+
+pip install -r requirements.txt
+
+========================================
+PROJECT STRUCTURE
+=================
+
+Weather-Analysis-Project/
+
+│
+├── weather.csv
+├── weather_analysis.py
+├── requirements.txt
+├── README.md
+├── INSTRUCTIONS.txt
+│
+├── analysis_report.txt
+├── model_performance.csv
+├── weather_summary.csv
+│
+├── missing_values_heatmap.png
+├── rainfall_distribution.png
+├── outlier_detection.png
+├── correlation_matrix.png
+├── pairplot.png
+├── rain_today_distribution.png
+├── rain_tomorrow_distribution.png
+├── humidity_vs_rainfall.png
+├── actual_vs_predicted.png
+├── feature_importance.png
+
+========================================
+HOW TO RUN THE PROJECT
+======================
+
+Step 1:
+Open terminal in the project folder.
+
+Step 2:
+Install required libraries.
+
+Command:
+
+pip install -r requirements.txt
+
+Step 3:
+Run the Python script.
+
+Command:
+
+python weather_analysis.py
+
+========================================
+GENERATED OUTPUT FILES
+======================
+
+After successful execution, the following files will be generated:
+
+1. missing_values_heatmap.png
+2. rainfall_distribution.png
+3. outlier_detection.png
+4. correlation_matrix.png
+5. pairplot.png
+6. rain_today_distribution.png
+7. rain_tomorrow_distribution.png
+8. humidity_vs_rainfall.png
+9. actual_vs_predicted.png
+10. feature_importance.png
+11. weather_summary.csv
+12. model_performance.csv
+13. analysis_report.txt
+
+========================================
+MACHINE LEARNING MODELS USED
+============================
+
+1. Linear Regression
+2. Decision Tree Regressor
+3. Random Forest Regressor
+
+Evaluation Metrics:
+
+* MAE (Mean Absolute Error)
+* MSE (Mean Squared Error)
+* RMSE (Root Mean Squared Error)
+* R² Score
+
+========================================
+OBJECTIVE
+=========
+
+The objective of this project is to analyze weather conditions and predict rainfall using machine learning techniques while providing meaningful visualizations and insights from the dataset.
+
+========================================
+AUTHOR
+======
+
+Arshpreet Singh
+B.Tech Computer Science Engineering
+Data Science Intern
